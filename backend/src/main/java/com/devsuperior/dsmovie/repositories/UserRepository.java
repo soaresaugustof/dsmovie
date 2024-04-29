@@ -7,4 +7,6 @@ import com.devsuperior.dsmovie.entities.User;
 public interface UserRepository extends JpaRepository<User, Long>{
 
 	User findByEmail(String email);
+
+	User findByEntity(User user);
 }
