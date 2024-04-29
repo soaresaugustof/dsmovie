@@ -1,7 +1,7 @@
 # Documento de Requisitos da Aplicação de Filmes
 
 ## 1. Introdução
-Este documento especifica os requisitos funcionais e não funcionais para a aplicação de listagem e avaliação de filmes. A aplicação oferecerá funcionalidades de autenticação segura, busca, filtragem, avaliação, e marcação de filmes, com foco em uma experiência personalizada para o usuário.
+Este documento especifica os requisitos funcionais e não funcionais para a aplicação de listagem e avaliação de filmes. A aplicação oferecerá funcionalidades de autenticação segura, busca, filtragem, avaliação, marcação de filmes e listagem geral, com foco em uma experiência personalizada para o usuário.
 
 ## 2. Requisitos Funcionais
 
@@ -41,6 +41,11 @@ Este documento especifica os requisitos funcionais e não funcionais para a apli
 - **Critérios de Aceitação**:
   - Os resultados devem incluir todos os filmes cujos títulos contenham o texto buscado.
 
+**RF09 - Listagem Geral de Todos os Filmes**
+- **Descrição**: Permitir que os usuários visualizem uma lista completa de todos os filmes disponíveis na aplicação.
+- **Critérios de Aceitação**:
+  - Todos os filmes devem ser listados, permitindo aos usuários navegar sem filtros aplicados inicialmente.
+
 ### 2.3 Interação com Filmes
 **RF07 - Avaliação de Filmes**
 - **Descrição**: Permitir que os usuários logados avaliem filmes.
@@ -72,3 +77,4 @@ Este documento especifica os requisitos funcionais e não funcionais para a apli
 ## 4. Glossário
 - **Usuário**: Qualquer pessoa que utiliza a aplicação.
 - **JWT (JSON Web Token)**: Método para representar reivindicações de segurança entre duas partes.
+- **Hash Seguro**: Algoritmo de criptografia que transforma uma senha em uma sequência de caracteres aleatórios.
